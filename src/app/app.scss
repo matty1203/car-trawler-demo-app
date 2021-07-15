@@ -1,0 +1,67 @@
+@import "./public/abstracts/_colors";
+@import "./public/abstracts/_utils";
+@import "./public/abstracts/_mixins";
+@import "./public/abstracts/_responsive";
+@import "../top-bar/top-bar.scss";
+@import "../cars-list/cars-list.scss";
+@import "../car-info/car-info.scss";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    min-width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+
+// // Filter Button
+// .filter-btn {
+//     position: fixed;
+//     bottom: 12px;
+//     right: 12px;
+
+//     button {
+//         @include btn_basic($font-color-primary, $color-primary, large)
+//     }
+// }
+
+
+///Media Query Mixins
+@include respond-to-mobile {
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .car_results {
+        padding: 12px;
+
+        &--heading {
+            @include text_basic($font-color-territory, 1.4rem, bolder, capitalize)
+        }
+    }
+
+    .cards {
+        display: block;
+        width: 100%;
+
+        &_img {
+            width: 100%;
+        }
+
+        footer {
+            display: block !important;
+            width: 100%;
+
+            div {
+                text-align: right;
+            }
+        }
+
+    }
+
+
+}

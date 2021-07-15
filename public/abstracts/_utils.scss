@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.row {
+    --bs-gutter-x: 0px;
+}
+
+.utils-flex {
+    display: flex;
+}
+.utils-block {
+    display: block;
+}
+.bold-text{
+    font-weight: bolder;
+    transform: scale(1.2);
+}
+.margin_top-12px{
+    margin-top: 12px;
+}

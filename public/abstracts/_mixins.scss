@@ -1,0 +1,12 @@
+@mixin text_basic($font_color, $size, $weight, $trans) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $font_color;
+    text-transform: $trans;
+}
+
+@mixin btn_basic($font_color, $bg-color,$text_size) {
+    background-color: $bg-color;
+    color: $font_color;
+    font-size: $text_size;
+}

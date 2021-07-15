@@ -1,0 +1,24 @@
+
+
+.legend {
+    width: 100%;
+
+    &_place {
+
+        box-shadow: 11px 11px 8px $shadow-color;
+        border-bottom: 1px solid $color-white-light;
+        padding: 18px;
+        // display: block;
+        background-color: $color-primary;
+
+        &--heading {
+            @include text_basic($font-color-primary, large, bold, uppercase)
+        }
+
+        &--subhead {
+            @include text_basic($font-color-primary, small, lighter, uppercase)
+        }
+
+
+    }
+}

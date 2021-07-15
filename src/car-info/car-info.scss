@@ -1,0 +1,61 @@
+@import "./public/abstracts/_mixins";
+@import "./public/abstracts/_colors";
+@import "./public/abstracts/_utils";
+
+
+.navBar{
+    background-color: $color-primary;
+    color: $color-secondary;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    span{
+        cursor: pointer;
+    }
+}
+.info {
+    display: flex;
+    padding: 12px;
+    height: 100%;
+    width: 100%;
+
+    &_card {
+        margin: auto;
+padding-top: 3rem;
+        &--heading {
+            // font-family:Arial, Helvetica, sans-serif;
+            @include text_basic($font-color-secondary, x-large, bolder, capitalize);
+        }
+
+        &--subheading {
+
+            span.avail {
+                @include text_basic($font-color-territory, small, bolder, capitalize);
+                float: right;
+                padding: 4px;
+                border: 1px solid $color-primary;
+                border-radius: 12px;
+            }
+
+            span.vendor {
+                float: left;
+                padding: 4px;
+                font-style: italic;
+                @include text_basic($font-color-secondary, small, 500, capitalize);
+            }
+        }
+
+        footer {
+            margin-top: 8px;
+            border-top: 1px solid $shadow-color;
+            width: 100%;
+
+            div {
+                width: 100%;
+                padding-top: 12px;
+            }
+        }
+    }
+}

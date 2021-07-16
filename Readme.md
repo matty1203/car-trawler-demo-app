@@ -9,3 +9,5 @@ This application is developed for interview purpose based on the requirements gi
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [File Directory Explanation](#file-directory)
+
+## General Info

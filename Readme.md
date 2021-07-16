@@ -28,9 +28,33 @@ This application is developed for interview purpose based on the requirements gi
 ## Packages Used
 ***
 List of packages used within this project:
-* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/
+* [bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 * [parcel-bundler](https://parceljs.org/getting_started.html)
 * [sass](https://sass-lang.com/install)
 * [@babel/core](https://babeljs.io/docs/en/babel-core)
 * [@babel/plugin-transform-runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
 * [@babel/runtime-corejs2](https://babeljs.io/docs/en/babel-runtime-corejs2)
+
+
+## Installation
+***
+1. You can clone the repository by using the below code
+```
+$ git clone https://github.com/matty1203/car-trawler-demo-app
+```
+
+2. Run the npm install 
+```
+$ npm install
+```
+
+3. To Run locally
+```
+$ npm run dev
+```
+
+4. To generate the production build
+```
+$ npm run build
+```
+Note: To use the application in a special environment use ```lorem ipsum``` to start.

@@ -57,4 +57,11 @@ $ npm run dev
 ```
 $ npm run build
 ```
-Note: To use the application in a special environment use ```lorem ipsum``` to start.
+
+## File Directory Explanation
+
+In this Directory there are mainly three folders to explain.
+1. [public](##public)
+2. [src](##public)
+
+

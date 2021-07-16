@@ -8,7 +8,7 @@ This application is developed for interview purpose based on the requirements gi
 1. [General Info](#general-info)
 2. [Packages Used](#packages-used)
 3. [Installation](#installation)
-4. [File Directory Explanation](#file-directory)
+4. [File Directory Explanation](#file-directory-explanation)
 
 ## General Info
 ***

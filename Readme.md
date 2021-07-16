@@ -71,7 +71,7 @@ This folder have ```index.js``` file and an absdtracts folder which contains the
 1. _colors.scss : Contains all the color varibale sused in the project.
 2. _mixins.scs : common mixins used for this project.
 3. _responsive.scss : contains a mixin of media query to make the code more understandable.
-4. _utils.scss : Common Classes that are used in this project.
+4. _utils.scss : Common CSS classes that are used in this project.
 
 ### src 
 This folder contains the JS file and a scss file of each module and a service folder.

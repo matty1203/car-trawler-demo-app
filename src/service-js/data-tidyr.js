@@ -1,5 +1,5 @@
 const DataTidyr = (data,filter_type) => {
-
+//// Making the JSON data wider which will be easier for fetching the data 
     var veh_list = new Array();
     data.forEach(vend => {
         vend.VehAvails.forEach(veh => {
@@ -23,7 +23,12 @@ const DataTidyr = (data,filter_type) => {
             }))
         })
     });
+
+    ///Storing filter type currently requested for future use
     localStorage.setItem('filter',filter_type)
+
+
+    /////(filter_type==0)?'Low to High' :'High to Low'
     if(filter_type==0){
         veh_list.sort((veh1,veh2)=>{return veh1.total_rate-veh2.total_rate}) }
     else{

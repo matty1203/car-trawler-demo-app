@@ -17,17 +17,6 @@ body {
 }
 
 
-// // Filter Button
-// .filter-btn {
-//     position: fixed;
-//     bottom: 12px;
-//     right: 12px;
-
-//     button {
-//         @include btn_basic($font-color-primary, $color-primary, large)
-//     }
-// }
-
 
 ///Media Query Mixins
 @include respond-to-mobile {

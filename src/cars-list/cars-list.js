@@ -3,7 +3,8 @@ import DataTidyr from '../service-js/data-tidyr'
 
 const CarsList = (cars_data,filter_type) => {
     let new_data = DataTidyr(cars_data,filter_type)
-    console.log(new_data)
+
+    ///Initializing a parent div into which all the child elements were appended through loop
     const cards = document.createElement('div');
     new_data.forEach((res,veh_indx)=>{
         const template = `
@@ -53,7 +54,6 @@ const CarsList = (cars_data,filter_type) => {
     cards.innerHTML += template;
     })
 
-    console.log(new_data, "Newly Created")
     return cards.innerHTML;
 }
 

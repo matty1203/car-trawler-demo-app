@@ -4,15 +4,21 @@ import CarsList from '../cars-list/cars-list';
 import CarInfo from '../car-info/car_info';
 
 const app = () => {
+    // Two Buttons used for Filtering the data
     const filter_low_btn = document.getElementById('filter-high');
     const filter_high_btn = document.getElementById('filter-low');
+    
     fetch('http://www.cartrawler.com/ctabe/cars.json ')
         .then(res => res.json())
         .then((json_res) => {
             let data = json_res[0].VehAvailRSCore;
             if (json_res.length) {
+                /// Adding Navigation Head (Legend)
                 document.getElementById('nav_head').innerHTML = TopBar(data.VehRentalCore)
+                //// Adding Car List
                 document.getElementById('cars_list').innerHTML = CarsList(data.VehVendorAvails, 0)
+
+                ////Click Event Listener for filter buttons
                 filter_high_btn.addEventListener('click', event => { document.getElementById('cars_list').innerHTML = CarsList(data.VehVendorAvails, 0) });
                 filter_low_btn.addEventListener('click', event => { document.getElementById('cars_list').innerHTML = CarsList(data.VehVendorAvails, 1) });
             
@@ -35,9 +41,6 @@ const app = () => {
 
 
 }
-
-
-
 
 
 ///App initialization

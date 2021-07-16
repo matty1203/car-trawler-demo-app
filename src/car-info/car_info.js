@@ -2,7 +2,11 @@
 import DataTidyr from '../service-js/data-tidyr'
 
 const CarInfo = (cars_data, idx) => {
+
+    /// Identifying the type of filter in the Front Page currently have 
     let filter_type = localStorage.getItem('filter')
+
+    //// Tidying the Data 
     let new_data = DataTidyr(cars_data, filter_type)
     const template = `
   
@@ -62,12 +66,3 @@ const CarInfo = (cars_data, idx) => {
 
 export default CarInfo;
 
-
-{/* <div class="card info_card"  style="width: 18rem;">
-    <img src="${new_data[idx].pic_url}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div> */}

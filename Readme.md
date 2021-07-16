@@ -73,7 +73,7 @@ This folder have ```index.js``` file and an absdtracts folder which contains the
 3. _responsive.scss : contains a mixin of media query to make the code more understandable.
 4. _utils.scss : Common CSS classes that are used in this project.
 
-### src 
+### SRC Folder
 This folder contains the JS file and a scss file of each module and a service folder.
 1. app.js and app.scss : They are the main Javascript and SCSS files in this project.
 2. cars-list, car-info, top-bar : They are the different modules used in this project.

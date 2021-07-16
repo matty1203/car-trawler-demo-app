@@ -22,4 +22,5 @@ This application is developed for interview purpose based on the requirements gi
 7. Focus on a scalable/accessible solution .
 
 ### Screenshots
-![Desktop](/screenshots/home-phone.JPG)
+![Home Desktop View](/screenshots/home-desktop.JPG)
+![Home Mobile View](/screenshots/home-mobile.JPG)

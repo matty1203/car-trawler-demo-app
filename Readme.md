@@ -62,7 +62,7 @@ $ npm run build
 
 In this Directory there are mainly three folders to explain.
 1. Public
-2. Src
+2. src
 
 ### Public
 This folder have ```index.js``` file and an absdtracts folder which contains the common ```.scss``` files that are used.

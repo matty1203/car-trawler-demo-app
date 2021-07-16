@@ -6,7 +6,7 @@ This application is developed for interview purpose based on the requirements gi
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Technologies](#technologies)
+2. [Packages Used](#packages-used)
 3. [Installation](#installation)
 4. [File Directory Explanation](#file-directory)
 
@@ -24,3 +24,13 @@ This application is developed for interview purpose based on the requirements gi
 ### Screenshots
 ![Home Desktop View](/screenshots/home-desktop.png)
 ![Home Mobile View](/screenshots/home-mobile.png)
+
+## Packages Used
+***
+List of packages used within this project:
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/
+* [parcel-bundler](https://parceljs.org/getting_started.html)
+* [sass](https://sass-lang.com/install)
+* [@babel/core](https://babeljs.io/docs/en/babel-core)
+* [@babel/plugin-transform-runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
+* [@babel/runtime-corejs2](https://babeljs.io/docs/en/babel-runtime-corejs2)

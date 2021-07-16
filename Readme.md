@@ -68,7 +68,7 @@ In this Directory there are mainly three folders to explain.
 This folder have ```index.js``` file and an absdtracts folder which contains the common ```.scss``` files that are used.
 
 #### Abstracts Folder
-1. _colors.scss : Contains all the color varibale sused in the project.
+1. _colors.scss : Contains all the color variables used in the project.
 2. _mixins.scs : common mixins used for this project.
 3. _responsive.scss : contains a mixin of media query to make the code more understandable.
 4. _utils.scss : Common CSS classes that are used in this project.

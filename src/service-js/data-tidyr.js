@@ -34,6 +34,9 @@ const DataTidyr = (data,filter_type) => {
     else{
         veh_list.sort((veh1,veh2)=>{return veh2.total_rate-veh1.total_rate})}
 
+console.log(data)
+    console.log(veh_list)
+
     return veh_list
     
 }

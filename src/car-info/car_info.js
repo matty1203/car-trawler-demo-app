@@ -34,6 +34,10 @@ const CarInfo = (cars_data, idx) => {
              <span><b>Transmission Type: </b> ${new_data[idx].trsm_type}</span>&nbsp;
          </div>
          <div class="col-sm-12 col-md-6">
+         <span><i class="fas fa-dharmachakra"></i>&nbsp;</span><span><b>Drive
+                 Type :</b> ${new_data[idx].drv_type}</span>
+         </div>
+         <div class="col-sm-12 col-md-6">
              <span><i class="fas fa-snowflake"></i>&nbsp;</span><span><b>Air
                      Conditioning :</b> ${(new_data[idx].ac == 'true') ? 'Yes' : 'No'}</span>
          </div>

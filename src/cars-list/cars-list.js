@@ -26,6 +26,10 @@ const CarsList = (cars_data,filter_type) => {
                         <span>${res.trsm_type}</span>&nbsp;
                     </div>
                     <div class="col-12 margin_top-12px">
+                    <span><i class="fas fa-dharmachakra"></i>&nbsp;</span><span><b>Drive
+                            Type :</b> ${res.drv_type}</span>
+                    </div>
+                    <div class="col-12 ">
                         <span><i class="fas fa-snowflake"></i>&nbsp;</span><span><b>Air
                                 Conditioning :</b> ${(res.ac=='true')?'Yes':'No'}</span>
                     </div>

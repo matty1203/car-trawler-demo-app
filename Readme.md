@@ -61,14 +61,25 @@ $ npm run build
 ## File Directory Explanation
 
 In this Directory there are mainly three folders to explain.
-1. [public](##public)
-2. [src](##public)
+1. Public
+2. Src
 
 ### Public
-das
-adssa
-d
-sd
-asd
+This folder have ```index.js``` file and an absdtracts folder which contains the common ```.scss``` files that are used.
+
+#### Abstracts Folder
+1. _colors.scss : Contains all the color varibale sused in the project.
+2. _mixins.scs : common mixins used for this project.
+3. _responsive.scss : contains a mixin of media query to make the code more understandable.
+4. _utils.scss : Common Classes that are used in this project.
 
 ### src 
+This folder contains the JS file and a scss file of each module and a service folder.
+1. app.js and app.scss : They are the main Javascript and SCSS files in this project.
+2. cars-list, car-info, top-bar : They are the different modules used in this project.
+3. services-js : THis folder contains all the common javascript functions that are used in different modules of this project.
+
+#### data-tdyr.js
+It is a common javascript file created to make the JSON data more readable javascript objects. This function  helps for data tidying and sorting.
+
+
